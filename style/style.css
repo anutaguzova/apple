@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding:0;
+    overflow-x: hidden; 
+}
+
+body {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color: #fff;
+    color: #1d1d1f;
+    font-style: normal;
+}
+
+
+/* header */
+header {
+    background-color:  rgba(0,0,0,0.8);
+    color: rgba(255,255,255,0.92);
+    /* position: fixed;
+    width: 100%; */
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
+.nav_products {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0 22px;
+    max-width: 980px;
+    margin: 0 auto;
+    height: 48px;
+}
+
+/* main */
+
+.main {
+    background-color: #fbfbfd;
+}
+
+.unicef_container {
+    background-color: #f5f5f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 22px 0;
+}
+
+.unicef_container img {
+   height: 32px;
+   width: 122px;
+}
+
+.unicef_container div {
+    color: #06c;
+    margin-left: 14px;
+    font-size: 14px;
+ }
+
+
+
+.product-items_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-item_desription {
+    margin-bottom: 1em;
+}
+
+.product_description-title{
+    color:#1d1d1f;
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+}
+
+
+.product_description-subtitle{
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+    margin-top: 10px;
+}
+
+
+.card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 2580px;
+    height: 736px;
+    background-size: 2580px 736px;
+    background-repeat: no-repeat;
+}
+
+.card:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.macbook_container {
+    background-image: url(../images/1.png);
+}
+
+.links {
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    color: #06c;
+    margin-top: 0.65em;
+}
+
+.buy_link {
+    padding-left: 1em;
+}
+
+
+.product_description {
+    padding-top: 4em;
+    text-align: center;
+}
+
+.macboook_description {
+   padding-right: 10em;
+}
+
+
+.iphone_container {
+    background-image: url(../images/2.jpeg);
+}
+
+.charged_container {
+
+    background-image: url(../images/3.jpeg);
+}
+
+.charged_name {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.charged_name span{
+    color: #ca2166;
+}
+
+
+/* section 2 */
+
+.product-items_2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 2580px;
+    margin: 0 auto;
+
+ 
+}
+
+.product-item {
+    
+    width: 1273px;
+    height: 580px;
+    background-size: 1273px 580px;
+    background-repeat: no-repeat;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+
+.card_color {
+    color:#f5f5f7;
+}
+
+.iphone_card {
+    background-image: url(../images/4.jpeg);
+}
+
+.macbook_card {
+    background-image: url(../images/5.jpeg);
+    margin-right: 0;
+}
+
+.watch_card {
+    background-image: url(../images/6.jpeg);
+}
+
+.ipad_card {
+    background-image: url(../images/7.jpeg);
+    margin-right: 0em;
+}
+
+.card_card {
+    background-image: url(../images/8.jpeg);
+}
+
+.airpods_card {
+    background-image: url(../images/9.jpeg);
+    margin-right: 0em;
+}
+
+
