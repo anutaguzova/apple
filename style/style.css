@@ -1,7 +1,7 @@
 * {
     margin: 0;
-    padding:0;
-    overflow-x: hidden; 
+    padding: 0;
+    overflow-x: hidden;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
     line-height: 1.47059;
     font-weight: 400;
     letter-spacing: -.022em;
-    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     background-color: #fff;
     color: #1d1d1f;
     font-style: normal;
@@ -18,8 +18,8 @@ body {
 
 /* header */
 header {
-    background-color:  rgba(0,0,0,0.8);
-    color: rgba(255,255,255,0.92);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 255, 255, 0.92);
     /* position: fixed;
     width: 100%; */
 }
@@ -39,6 +39,22 @@ header {
     height: 48px;
 }
 
+.nav_responsive {
+    display: none;
+}
+
+.apple_icon {
+    padding-top: .5em;
+}
+
+.basket_icon {
+    padding-top: .5em;
+}
+
+.search_icon {
+    padding-top: 3em;
+}
+
 /* main */
 
 .main {
@@ -54,15 +70,15 @@ header {
 }
 
 .unicef_container img {
-   height: 32px;
-   width: 122px;
+    height: 32px;
+    width: 122px;
 }
 
 .unicef_container div {
     color: #06c;
     margin-left: 14px;
     font-size: 14px;
- }
+}
 
 
 
@@ -77,8 +93,8 @@ header {
     margin-bottom: 1em;
 }
 
-.product_description-title{
-    color:#1d1d1f;
+.product_description-title {
+    color: #1d1d1f;
     font-size: 56px;
     line-height: 1.07143;
     font-weight: 600;
@@ -86,7 +102,7 @@ header {
 }
 
 
-.product_description-subtitle{
+.product_description-subtitle {
     font-size: 28px;
     line-height: 1.10722;
     font-weight: 400;
@@ -139,7 +155,7 @@ header {
 }
 
 .macboook_description {
-   padding-right: 10em;
+    padding-right: 10em;
 }
 
 
@@ -157,7 +173,7 @@ header {
     font-weight: bold;
 }
 
-.charged_name span{
+.charged_name span {
     color: #ca2166;
 }
 
@@ -172,11 +188,11 @@ header {
     max-width: 2580px;
     margin: 0 auto;
 
- 
+
 }
 
 .product-item {
-    
+
     width: 1273px;
     height: 580px;
     background-size: 1273px 580px;
@@ -186,7 +202,7 @@ header {
 }
 
 .card_color {
-    color:#f5f5f7;
+    color: #f5f5f7;
 }
 
 .iphone_card {
@@ -217,3 +233,57 @@ header {
 }
 
 
+@media screen and (max-width: 1068px) {}
+
+
+@media screen and (max-width: 833px) {
+    .nav_responsive {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .nav_products {
+        display: none;
+    }
+
+
+    .line_bottom {
+        border-bottom: 1px solid #fbfbfd;
+        width: 1.2em;
+        margin-bottom: 1em;
+    }
+}
+
+
+@media screen and (max-width: 734px) {
+    .unicef_container {
+        flex-direction: column;
+    }
+
+    .unicef_container img {
+        padding-bottom: 0.6em;
+    }
+
+    .unicef_container div {
+        width: 13em;
+        text-align: center;
+    }
+
+    .product_description-title {
+        font-size: 32px;
+        line-height: 1.125;
+    }
+
+
+
+    .product_description-subtitle,
+    .links {
+        font-size: 17px;
+        line-height: 1.47059;
+        font-weight: 400;
+        letter-spacing: -.022em;
+    }
+}
