@@ -6,10 +6,10 @@
 body {
     margin: 0;
     padding: 0;
-    font-size: 17px;
+    font-size: 12px;
     line-height: 1.47059;
     font-weight: 400;
-    letter-spacing: -.022em;
+    letter-spacing: -0.12px;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     background-color: #fff;
     color: #1d1d1f;
@@ -38,10 +38,8 @@ header {
     align-items: center;
     justify-content: space-between;
     list-style-type: none;
-    padding: 0 22px;
-    max-width: 980px;
     margin: 0 auto;
-    height: 48px;
+    height: 44px;
 }
 
 .nav_responsive {
@@ -49,15 +47,15 @@ header {
 }
 
 .apple_icon {
-    padding-top: .5em;
+    padding-top: 0.5em;
 }
 
 .basket_icon {
-    padding-top: .5em;
+    padding-top: 0.5em;
 }
 
 .search_icon {
-    padding-top: 3em;
+    padding-top: 4em;
 }
 
 /* main */
@@ -224,8 +222,8 @@ footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-left: 1em;
-        padding-right: 1em;
+        margin: 0 auto;
+        height: 44px;
     }
 
     .nav_products {
