@@ -1,11 +1,13 @@
 * {
     overflow-x: hidden;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     font-size: 12px;
     line-height: 1.47059;
     font-weight: 400;
@@ -70,8 +72,8 @@ header {
     align-items: center;
     justify-content: center;
     padding: 20px 0;
-    max-width: 2560px;
     margin: 44px auto 0;
+    max-width: 2560px;
 
 }
 
@@ -82,15 +84,17 @@ header {
 
 .unicef_container div {
     color: rgb(41, 151, 255);
-    margin-left: 14px;
+    padding-left: 14px;
     font-size: 14px;
 }
 
 .product-items_1 {
+    max-width: 2560px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
 
 .product-item_desription {
@@ -103,6 +107,8 @@ header {
     line-height: 1.07143;
     font-weight: 600;
     letter-spacing: -.005em;
+    padding-top: 25px;
+    padding-bottom: 10px;
 }
 
 
@@ -115,7 +121,7 @@ header {
     line-height: 1.10722;
     font-weight: 400;
     letter-spacing: .004em;
-    margin-top: 10px;
+    padding-bottom: 0;
 }
 
 
@@ -123,20 +129,19 @@ header {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    width: 2580px;
-    height: 736px;
-    background-size: 2580px 736px;
+    width: 2560px;
+    height: 692px;
+    background-size: 2560px 692px;
     background-repeat: no-repeat;
 }
 
-.card:first-child {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .macbook_container {
     background-image: url(../images/1.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .links {
@@ -154,12 +159,31 @@ header {
 
 
 .product_description {
-    padding-top: 4em;
-    text-align: center;
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
+.product_description h2 {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    margin-top: 53px;
+}
+
+.product_description h3 {
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+    margin-top: 4px;
+}
+
+
 .macboook_description {
-    padding-right: 10em;
+    padding-right: 20em;
 }
 
 
@@ -168,7 +192,6 @@ header {
 }
 
 .charged_container {
-
     background-image: url(../images/3.jpeg);
 }
 
@@ -177,18 +200,91 @@ header {
     font-weight: bold;
 }
 
-
-
 .charged_name span {
     color: #ca2166;
 }
 
+
+/* section 2 */
+.product-items_2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 2560px;
+    margin: 0 auto;
+}
+
+.product-items_2 div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    max-width: 100%;
+    margin: 8px auto;
+}
+
+.product-item {
+    width: 1260px;
+    height: 664px;
+    background-size: 1260px 664px;
+    background-repeat: no-repeat;
+    margin-bottom: 8px;
+    margin-right: 8px;
+
+}
+
+.product_description {
+    display: flex;
+    flex-direction: column;
+}
+
+.card_color {
+    color: #f5f5f7;
+}
+
+.iphone_card {
+    background-image: url(../images/4.jpeg);
+}
+
+.macbook_card {
+    background-image: url(../images/5.jpeg);
+    margin-right: 0;
+}
+
+
+.watch_card {
+    background-image: url(../images/6.jpeg);
+
+}
+
+.ipad_card {
+    background-image: url(../images/7.jpeg);
+    margin-right: 0em;
+}
+
+.card_card {
+    background-image: url(../images/8.jpeg);
+}
+
+.music_card {
+    background-image: url(../images/9.jpeg);
+    margin-right: 0em;
+    text-align: center;
+}
 
 
 
 /* footer */
 footer {
     background-color: rgb(245, 245, 247);
+}
+
+h4 {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .footer_description {
@@ -198,6 +294,7 @@ footer {
     letter-spacing: normal;
     color: rgb(110, 110, 115);
     text-align: left;
+    padding-top: 15px;
 }
 
 .footer_container-item {
@@ -362,5 +459,11 @@ footer {
     .unicef_container div {
         width: 215px;
         text-align: center;
+    }
+
+    .macbook_container {
+        display: flex;
+        align-items: flex-start;
+        /* justify-content: center; */
     }
 }
